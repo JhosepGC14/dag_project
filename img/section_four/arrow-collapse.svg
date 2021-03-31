@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="22" rx="11"></rect>
+        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.110740822 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Marketing-Digital" transform="translate(-727.000000, -1374.000000)">
+            <g id="Group-3" transform="translate(150.000000, 1361.000000)">
+                <g id="Group-28" transform="translate(590.000000, 28.000000) scale(1, -1) rotate(-90.000000) translate(-590.000000, -28.000000) translate(579.000000, 17.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="Shape" fill="#1C2A37" transform="translate(11.589183, 10.942308) scale(-1, 1) translate(-11.589183, -10.942308) " points="11.0418269 10.3341346 14.4475962 6.92836538 13.5961538 6.07692308 8.73076923 10.9423077 13.5961538 15.8076923 14.4475962 14.95625 10.467529 10.9423077"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.:: Transportes DAG ::.</title>
+  <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/section_one.css" type="text/css">
+  <link rel="stylesheet" href="css/section_two.css" type="text/css">
+  <link rel="stylesheet" href="css/section_three.css" type="text/css">
+  <link rel="stylesheet" href="css/section_four.css" type="text/css">
+  <link rel="stylesheet" href="css/section_five.css" type="text/css">
+  <link rel="stylesheet" href="css/pushbar.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <a id="button" class="top-btn">
+    <i class="fas fa-arrow-up" style="font-size: 30px; color: var(--white);"></i>
+  </a>
+  <main class="wrapper">
+    <!-- NAVBAR RESPONSIVE -->
+    <div data-pushbar-id="pushbar-menu" data-pushbar-direction="right" class="pushbar-menu">
+      <div class="btn_close">
+        <span data-pushbar-close><img src="img/section_one/icon_close.svg" alt=""></span>
+      </div>
+      <nav>
+        <ul>
+          <li data-scroll-nav='0' data-pushbar-close><a data-pushbar-close href="!#">Inicio</a> <img data-pushbar-close
+              id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+          <li data-scroll-nav='1' data-pushbar-close><a data-pushbar-close href="!#">Acerca de nosotros</a><img
+              data-pushbar-close id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+          <li data-scroll-nav='2' data-pushbar-close><a data-pushbar-close href="!#">Servicios</a><img
+              data-pushbar-close id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+          <li data-scroll-nav='3' data-pushbar-close><a data-pushbar-close href="!#">Terminales</a> <img
+              data-pushbar-close id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+          <li data-scroll-nav='4' data-pushbar-close><a data-pushbar-close href="!#">Clientes</a><img data-pushbar-close
+              id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+          <li data-scroll-nav='5' data-pushbar-close><a data-pushbar-close href="!#">Comunicate con nosotros</a> <img
+              data-pushbar-close id="arrow_active" src="img/section_one/icon_arrow_active.svg" alt="">
+            <img data-pushbar-close id="arrow_no_active" src="img/section_one/icon_arrow_no_active.svg" alt="">
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- NAVBAR -->
+    <div id="header-navbar" class="bg_header">
+      <header>
+        <nav class="firstSection__navbar">
+          <div class="firstSection__navbar__container_logo">
+            <a href="/"><img class="firstSection__navbar__logo" src="img/section_one/dag-logo.png" alt="logo_dagc"></a>
+          </div>
+          <div class="firstSection__navbar__container_menu">
+            <ul>
+              <li data-scroll-nav='0'>
+                <div class="firstSection__navbar__decorator"></div><a href="!#">Inicio</a>
+              </li>
+              <li data-scroll-nav='1'>
+                <div class="firstSection__navbar__decorator"></div>
+                <a href="!#">Acerca de nosotros</a>
+              </li>
+              <li data-scroll-nav='2'>
+                <div class="firstSection__navbar__decorator"></div>
+                <a href="!#">Servicios</a>
+              </li>
+              <li data-scroll-nav='3'>
+                <div class="firstSection__navbar__decorator"></div>
+                <a href="!#">Terminales</a>
+              </li>
+              <li data-scroll-nav='4'>
+                <div class="firstSection__navbar__decorator"></div>
+                <a href="!#">Clientes</a>
+              </li>
+              <li data-scroll-nav='5'>
+                <div class="firstSection__navbar__decorator"></div>
+                <a href="!#">Comunicate con nosotros</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn-menu" data-pushbar-target="pushbar-menu">
+            <img src="img/section_one/icon_menu_bar.svg" alt="">
+          </button>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Slider main container -->
+    <section class="swiper-container slider-main01 firstSection" data-scroll-index='0'>
+      <!-- CONTENIDO -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- BACKGROUND CARD SLIDER -->
+          <div class="cardSlider">
+            <img class="background_image__fristSection" src="img/section_one/backgorund_section_init.png"
+              alt="imgBackground">
+            <img class="background_image__fristSection__rwd" src="img/section_one/background_section_init_rwd.png"
+              alt="imgBackground">
+            <!-- SLIDER COMIENZA AQUI -->
+            <div class="container__slider">
+              <div class="layout__card__inside">
+                <div class="title__decorator"></div>
+                <h1 class="title__text">Transporte de carga <br />general</h1>
+                <p class="description__slider">Brindamos soluciones en transporte local y nacional, contamos con
+                  flota diversas cerrados y abiertos para cargas desde 1TM hasta 50TM</p>
+                <button onclick="" class="btn_primary_dag" data-scroll-nav='4'>
+                  Comunícate con nosotros
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- FIN BACKGROUND SLIDER -->
+        </div>
+        <div class="swiper-slide">
+          <!-- BACKGROUND CARD SLIDER -->
+          <div class="cardSlider">
+            <img class="background_image__fristSection" src="img/section_one/backgorund_section_init.png"
+              alt="imgBackground">
+            <img class="background_image__fristSection__rwd" src="img/section_one/background_section_init_rwd.png"
+              alt="imgBackground">
+            <!-- SLIDER COMIENZA AQUI -->
+            <div class="container__slider">
+              <div class="layout__card__inside">
+                <div class="title__decorator"></div>
+                <h1 class="title__text">Transporte de carga <br />general</h1>
+                <p class="description__slider">Brindamos soluciones en transporte local y nacional, contamos con
+                  flota diversas cerrados y abiertos para cargas desde 1TM hasta 50TM</p>
+                <button onclick="" class="btn_primary_dag">
+                  Comunicate con nosotros
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- FIN BACKGROUND SLIDER -->
+        </div>
+        <div class="swiper-slide">
+          <!-- BACKGROUND CARD SLIDER -->
+          <div class="cardSlider">
+            <img class="background_image__fristSection" src="img/section_one/backgorund_section_init.png"
+              alt="imgBackground">
+            <img class="background_image__fristSection__rwd" src="img/section_one/background_section_init_rwd.png"
+              alt="imgBackground">
+            <!-- SLIDER COMIENZA AQUI -->
+            <div class="container__slider">
+              <div class="layout__card__inside">
+                <div class="title__decorator"></div>
+                <h1 class="title__text">Transporte de carga <br />general</h1>
+                <p class="description__slider">Brindamos soluciones en transporte local y nacional, contamos con
+                  flota diversas cerrados y abiertos para cargas desde 1TM hasta 50TM</p>
+                <button onclick="" class="btn_primary_dag">
+                  Comunicate con nosotros
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- FIN BACKGROUND SLIDER -->
+        </div>
+        <div class="swiper-slide">
+          <!-- BACKGROUND CARD SLIDER -->
+          <div class="cardSlider">
+            <img class="background_image__fristSection" src="img/section_one/backgorund_section_init.png"
+              alt="imgBackground">
+            <img class="background_image__fristSection__rwd" src="img/section_one/background_section_init_rwd.png"
+              alt="imgBackground">
+            <!-- SLIDER COMIENZA AQUI -->
+            <div class="container__slider">
+              <div class="layout__card__inside">
+                <div class="title__decorator"></div>
+                <h1 class="title__text">Transporte de carga <br />general</h1>
+                <p class="description__slider">Brindamos soluciones en transporte local y nacional, contamos con
+                  flota diversas cerrados y abiertos para cargas desde 1TM hasta 50TM</p>
+                <button onclick="" class="btn_primary_dag">
+                  Comunicate con nosotros
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- FIN BACKGROUND SLIDER -->
+        </div>
+        
+      </div>
+      <!-- Add Pagination -->
+      <div class="container__swiper__pagination">
+        <div class="swiper-pagination slider-pag-main01"></div>
+      </div>
+      <div class="scroll__next__section">
+        <a href="!#" data-scroll-nav='1'><img src="img/section_one/scroll_icon.svg" alt="scrollMouse"></a>
+      </div>
+    </section>
+
+    <!-- SECOND SECTION -->
+    <section class="secondSection">
+      <div class="container__secondSection" data-scroll-index='1'>
+        <div class="container__secondSection__info">
+          <div class="container__secondSection__title">
+            <h2>Acerca de <span>nosotros</span></h2>
+          </div>
+          <p>
+            Diaz Acarreos Generales S.A.C. tiene como objetivo principal la prestación del servicio de Transporte de Carga Sólida y Líquidos Pesados a nivel nacional e internacional con vehículos propios, su especialidad es el Servicio de Transporte de Combustibles Liquidos (Hidrocarburos, Petroleo, Gas licuado) en el Peru, es así que en el mismo año en que se constituye - 1985 - inicia sus labores como transportista de PETROPERU S.A., es decir más de 30 años ininterrumpidos, apoyando permanentemente a las plantas de PETROPERU: Talara, Piura, Eten, Salaverry, Chimbote, Conchán, La Oroya; en los aeropuertos de: Huanchaco, Chiclayo, Talara y Lima - Callao.
+          </p>
+          <p>Estamos siempre alerta a vuestro Requerimiento de Servicio a realizar, las 24 horas del día inclusive sábados, domingos y feriados. Para DAG es un reto cada Contrato o Servicio, ejecutándolo con Eficiencia, Seguridad y Responsabilidad, para tal efecto contamos con un parque Automotriz selecto, Chóferes Profesionales altamente capacitados para todo tipo de ruta, así como talleres propios y mecánicos de reconocida experiencia, y así de esta manera poder hacer frente a múltiples adversidades como lluvias, huaycos, mal estado de carreteras, etc.</p>
+          <div class="items-modal">
+            <a href="#" data-toggle="modal" data-target=".politica">Política de calidad</a>
+            <a href="#" data-toggle="modal" data-target=".politicasst">Política de SST</a>
+            <a href="#" data-toggle="modal" data-target=".iso01">iso 9001</a>
+            <a href="#" data-toggle="modal" data-target=".iso02">iso 45001</a>
+          </div>
+          <!-- Modales-->
+            <!-- MODAL POLITICAS -->
+            <div class="modal fade politica" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Política de calidad</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img-modal">
+                      <img src="img/section_one/politicacalidad.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!-- MODAL POLITICAS -->
+            <div class="modal fade politicasst" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Política de la seguridad y salud en el trabajo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img-modal">
+                      <img src="img/section_one/politicasst.jpeg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+               <!-- MODAL iso01 -->
+            <div class="modal fade iso01" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Certificación ISO 9001-2015</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img-modal">
+                      <img src="img/section_one/iso9001.jpeg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!-- MODAL iso02 -->
+            <div class="modal fade iso02" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Certificación ISO 45001-2018</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img-modal">
+                      <img src="img/section_one/iso45001.jpeg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+          <!-- Cierra modales-->
+          <button class="btn_primary_dag display_none">
+            Más información
+          </button>
+        </div>
+        <div class="container__imgAboutUs">
+          <img src="img/section_two/img_about_us.png" alt="imgAboutUs">
+        </div>
+        <button class="btn_primary_dag display_block">
+          Más información
+        </button>
+      </div>
+    </section>
+
+    <!-- THIRD SECTION -->
+    <section class="thirdSection">
+      <div class="backgroundGreen" data-scroll-index='2'>
+        <div class="thirdSection__container__title">
+          <h2> <span>Nuestros</span> servicios</h2>
+        </div>
+        <p class="thirdSection__container__description">Diaz Acarreos Generales S.A.C. tiene como objetivo principal la
+          prestación del servicio de Transporte de
+          Carga Sólida y
+          Líquidos Pesados a nivel nacional e internacional con vehículos
+          propios, su especialidad es el Servicio de Transporte de Combustibles.</p>
+
+        <!-- SLIDER NUESTROS SERVICIOS -->
+        <div class="slider__our_services__container">
+          <div class="swiper-container servicios01">
+            <!-- Swiper -->
+            <div class="swiper-wrapper">
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/watter_traffic.png" alt="Transporte_de_agua">
+                  <div class="card__container__title">
+                    <span>Tranporte de líquido corrosivo, combustibles, crudo, agua, tuberías, y carga en general</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/fuel_transportation.png" alt="fuel_transportation">
+                  <div class="card__container__title">
+                    <span>Transporte especial de cama baja, traslado de maquinaria pesada y equipo de perforación</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/sulfuric_acid.png" alt="sulfuric_acid">
+                  <div class="card__container__title">
+                    <span>Transporte de agua</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Equipo de perforación</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Transporte de combustible</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Acido sulfúrico</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Soda caústica</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Transporte de embarque y desembarques</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Petroleo crudo</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Alquiler de tanques de almacenamiento de combustible con dispensador hasta de 20,000.00 GLNS</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Servicio de mudanza, traslados, mensajería, encomiendas y almacenamiento</span>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <!-- Card Slider -->
+                <div class="card__thridSection__services">
+                  <img src="img/section_three/caustic_soda.png" alt="">
+                  <div class="card__container__title">
+                    <span>Todos nuestros servicios lo realizamos a nivel local, regional y/o nacional</span>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <!-- Add Pagination -->
+          </div>
+          <div class="swiper-pagination servicios-pag01"></div>
+          <div class="swiper-button-next servicios-pag-left-arrow01"></div>
+          <div class="swiper-button-prev servicios-pag-right-arrow01"></div>
+        </div>
+
+        <div class="thridSection__container__button">
+          <button class="btn_primary_dag">
+            Ver todos
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- TERMINALES SECTION -->
+    <section class="fourthSection">
+      <div class="container__fourthSection" data-scroll-index='3'>
+        <div class="fourthSection__container__title">
+          <h2>Todos nuestros <span>terminales</span></h2>
+        </div>
+        <!--tab-->
+      <div class="custom-control-tab-v">
+        <ul id="tabs" class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab" aria-selected="true">
+              Terminal Trujillo
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab" aria-selected="false">
+              Terminal Talara
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab" aria-selected="false">
+              Terminal Piura
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="tab-D" href="#pane-D" class="nav-link" data-toggle="tab" role="tab" aria-selected="false">
+              Terminal Lima
+            </a>
+          </li>
+        </ul>
+
+        <div id="accordionExample" class="pane-cursos custom-collapse tab-content" role="tablist">
+
+            <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+              <div class="card-header" role="tab" id="slide01">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collaps01" aria-expanded="true" aria-controls="collaps01">
+                    Terminal Trujillo
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collaps01" class="collapse show" aria-labelledby="slide01" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="title-content-curso">
+                    Terminal Trujillo
+                  </div>
+                  <div class="box-terminal">
+                    <div class="date-terminal">
+                      <div class="item-date-terminal">
+                        Teléfono fijo: <span>+51 44 491121</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 1: <span>+51 942633146</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 2: <span>+51 942629279</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 3: <span>+51 947866588</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Email: <span class="green">produccion@dag.com.pe</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Dirección: <span>Av. Vía de Evitamiento S/N, Fundo La Encalada</span>
+                      </div>
+                    </div>
+                    <div class="mapa-terminal">
+                      <div class="mapa">
+                        <img src="img/section_four/maps1.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="pane-B"class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+              <div class="card-header" role="tab" id="slide02">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collaps02" aria-expanded="false" aria-controls="collaps02">
+                    Terminal Talara
+                  </button>
+                </h2>
+              </div>
+              <div id="collaps02" class="collapse" aria-labelledby="slide02" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="title-content-curso">
+                    Terminal Talara
+                  </div>
+                  <div class="box-terminal">
+                    <div class="date-terminal">
+                      <div class="item-date-terminal">
+                        Teléfono fijo: <span>+51 44 491121</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 1: <span>+51 942633146</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 2: <span>+51 942629279</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 3: <span>+51 947866588</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Email: <span class="green">produccion@dag.com.pe</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Dirección: <span>Zona Industrial S/N - Talara Alta</span>
+                      </div>
+                    </div>
+                    <div class="mapa-terminal">
+                      <div class="mapa">
+                        <img src="img/section_four/maps2.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="pane-C" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
+              <div class="card-header" role="tab" id="slide03">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collaps03" aria-expanded="false" aria-controls="collaps03">
+                    Terminal Piura
+                  </button>
+                </h2>
+              </div>
+              <div id="collaps03" class="collapse" aria-labelledby="slide03" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="title-content-curso">
+                    Terminal Piura
+                  </div>
+                  <div class="box-terminal">
+                    <div class="date-terminal">
+                      <div class="item-date-terminal">
+                        Teléfono fijo: <span>+51 44 491121</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 1: <span>+51 942633146</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 2: <span>+51 942629279</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 3: <span>+51 947866588</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Email: <span class="green">produccion@dag.com.pe</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Dirección: <span>Mz. L Lote 42 Pq.Ind. Zona Industrial</span>
+                      </div>
+                    </div>
+                    <div class="mapa-terminal">
+                      <div class="mapa">
+                        <img src="img/section_four/maps3.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="pane-D" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-D">
+              <div class="card-header" role="tab" id="slide04">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collaps04" aria-expanded="false" aria-controls="collaps04">
+                  Terminal Lima
+                </button>
+              </h2>
+              </div>
+              <div id="collaps04" class="collapse" aria-labelledby="slide04" data-parent="#accordionExample">
+                <div class="card-body">
+                  <div class="title-content-curso">
+                    Terminal Lima
+                  </div>
+                  <div class="box-terminal">
+                    <div class="date-terminal">
+                      <div class="item-date-terminal">
+                        Teléfono fijo: <span>+51 44 491121</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 1: <span>+51 942633146</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 2: <span>+51 942629279</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Teléfono móvil 3: <span>+51 947866588</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Email: <span class="green">produccion@dag.com.pe</span>
+                      </div>
+                      <div class="item-date-terminal">
+                        Dirección: <span>Rio Perene #150, Santa Isolina, Comas</span>
+                      </div>
+                    </div>
+                    <div class="mapa-terminal">
+                      <div class="mapa">
+                        <img src="img/section_four/maps4.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      <!--cierra tab-->
+
+      </div>
+      
+    </section>
+    <!-- FOURTH SECTION -->
+    <section class="fourthSection">
+      <div class="container__fourthSection" data-scroll-index='4'>
+        <div class="fourthSection__container__title">
+          <h2>Nuestros <span>clientes</span></h2>
+        </div>
+        <p>
+          Diaz Acarreos Generales S.A.C. tiene como objetivo principal la prestación del servicio de Transporte de Carga
+          Sólida y
+          Líquidos Pesados a nivel nacional e internacional con vehículos
+          propios, su especialidad es el Servicio de Transporte de Combustibles.
+        </p>
+
+        <!-- SLIDER NUESTROS CLIENTES -->
+        <div class="container__slider__our_customers">
+          <div class="swiper-container cliente01">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_petro_peru.png" alt="logo_petro_peru">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/exxon.png" alt="logo_petro_peru">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_electro_peru.png" alt="logo_electro_peru">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_endesa.png" alt="logo_endesa">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_yanacocha.png" alt="logo_yanacocha">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_maple.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/logo_petro_ecuador.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- card imagen -->
+                <div class="card__slider__our_customers">
+                  <img src="img/section_four/cana-brava.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination cliente-pag01"></div>
+          <div class="swiper-button-next cliente-pag-left-arrow01"></div>
+          <div class="swiper-button-prev cliente-pag-right-arrow01"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIFTH SECTION -->
+    <section class="fifthSection">
+      <div class="background__fifthSection" data-scroll-index='5'>
+        <!-- cabezera -->
+        <div class="container__header__fifthSection">
+          <h2>Comunicate con <span>nosotros</span></h2>
+          <p>
+            Diaz Acarreos Generales S.A.C. tiene como objetivo principal la prestación del servicio de Transporte de
+            Carga Sólida y
+            Líquidos Pesados a nivel nacional e internacional con vehículos
+            propios, su especialidad es el Servicio de Transporte de Combustibles.
+          </p>
+        </div>
+        <!-- fin cabezera -->
+
+        <div class="container__general__info__form">
+          <!-- info section -->
+          <div class="container__contact_section">
+
+            <!-- containerItemInfo -->
+            <div class="card__contact__fifthSection">
+              <div class="card__contact__container_icon">
+                <img src="img/section_five/check_list_icon.svg" alt="imagenCheck">
+              </div>
+              <div class="card__contact__container_info">
+                <p>OPERACIONES / PRODUCCIÓN</p>
+                <a href="">
+                  produccion@dag.com.pe
+                </a>
+                <span>942633146</span>
+              </div>
+            </div>
+
+            <!-- containerItemInfo -->
+            <div class="card__contact__fifthSection">
+              <div class="card__contact__container_icon">
+                <img src="img/section_five/check_list_icon.svg" alt="imagenCheck">
+              </div>
+              <div class="card__contact__container_info">
+                <p>Seguridad y Salud en el trabajo / Gestión
+                  de Calidad</p>
+                <a href="">
+                  seguridadysalud@dag.com.pe
+                </a>
+                <span>942629279</span>
+              </div>
+            </div>
+
+            <!-- containerItemInfo -->
+            <div class="card__contact__fifthSection">
+              <div class="card__contact__container_icon">
+                <img src="img/section_five/check_list_icon.svg" alt="imagenCheck">
+              </div>
+              <div class="card__contact__container_info">
+                <p>Informes</p>
+                <a href="">
+                  informes@dag.com.pe
+                </a>
+                <span>920147415</span>
+              </div>
+            </div>
+          </div>
+          <!-- formulario -->
+          <form>
+            <div class="container__form__fifthSection">
+              <!-- Caja de texto -->
+              <div class="content__item__form_input">
+                <label for="name">
+                  Nombres
+                </label>
+                <input id="name" type="text">
+              </div>
+              <!-- Fin caja de texto -->
+              <!-- Caja de texto -->
+              <div class="content__item__form_input">
+                <label for="name">
+                  Dirección
+                </label>
+                <input id="name" type="text">
+              </div>
+              <!-- Fin caja de texto -->
+              <!-- Caja de texto -->
+              <div class="content__item__form_input">
+                <label for="name">
+                  Télefono
+                </label>
+                <input id="name" type="text">
+              </div>
+              <!-- Fin caja de texto -->
+              <!-- Caja de texto -->
+              <div class="content__item__form_input">
+                <label for="name">
+                  Email
+                </label>
+                <input id="name" type="text">
+              </div>
+              <!-- Fin caja de texto -->
+              <!-- Caja de texto -->
+              <div class="content__item__form_input width_100">
+                <label for="name">
+                  ¿Dónde nos conocío?
+                </label>
+                <input id="name" type="text">
+              </div>
+              <!-- Fin caja de texto -->
+              <!-- Caja de texto -->
+              <div class="content__item__form_textarea width_100 ">
+                <label for="name">
+                  Comentario
+                </label>
+                <textarea></textarea>
+              </div>
+              <div class="container__btn_submit">
+                <button class="btn_primary_dag">
+                  Enviar datos
+                </button>
+              </div>
+              <!-- Fin caja de texto -->
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <footer>
+      <span>Copyright @DAG</span>
+    </footer>
+  </main>
+
+  <!-- SCRIPTS -->
+  <!-- <script type="text/javascript" src="js/swiper-bundle.min.js"></script> -->
+  <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/pushbar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='js/scrollIt.min.js' type='text/javascript'></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    const pushbar = new Pushbar({
+      blur: true,
+      overlay: true,
+    });
+  </script>
+  <script>
+    //SMOOTH SCROLLING
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a.top-btn").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+  </script>
+
+  <!-- ACTIVE NAVBAR -->
+  <script>
+    $(function () {
+      $.scrollIt({
+        topOffset: -125,
+        // key code to navigate to the previous section
+        easing: 'linear',     // the easing function for animation
+        scrollTime: 600,      // how long (in ms) the animation takes
+        activeClass: 'visible_decorator',// class given to the active nav element
+        onPageChange: null,   // function(pageIndex) that is called when page is changed
+      });
+    });
+  </script>
+
+  <!-- NAVBAR STICKY -->
+  <script>
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        //if you hard code, then use console
+        //.log to determine when you want the 
+        //nav bar to stick.  
+        console.log($(window).scrollTop())
+        if ($(window).scrollTop() > 200) {
+          $('#header-navbar').addClass('navbar-fixed');
+        }
+        else {
+          $('#header-navbar').removeClass('navbar-fixed');
+        }
+      });
+
+    });
+  </script>
+
+  <!-- SCROLL TO TOP  -->
+  <script>
+    var btn = $('#button');
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+  </script>
+</body>
+
+</html>
